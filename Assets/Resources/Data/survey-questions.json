@@ -1,0 +1,81 @@
+{
+  "questionDescription": [
+    "Which particle setting image satisfies the following relation between the Interest Points?",
+    "Which particle setting 3D model satisfies the following relation between the Interest Points?",
+    "Define a particle setting that satisfies the following relation between the Interest Points"
+  ],
+  "relation": [
+    {
+      "relation": "P3 = P1 > P2",
+      "setting": {
+        "x": -1,
+        "y": -1,
+        "z": 1
+      },
+      "images": ["figure_1_A", "figure_1_B", "figure_1_C", "figure_1_D"],
+      "models": ["model_1_A", "model_1_B", "model_1_C", "model_1_D"],
+      "correctImage": "figure_1_C",
+      "correctModel": "model_1_D"
+    },
+    {
+      "relation": "P2 = P1 > P3",
+      "setting": {
+        "x": -1,
+        "y": 1,
+        "z": -1
+      },
+      "images": ["figure_2_A", "figure_2_B", "figure_2_C", "figure_2_D"],
+      "models": ["model_2_A", "model_2_B", "model_2_C", "model_2_D"],
+      "correctImage": "figure_2_A",
+      "correctModel": "model_2_B"
+    },
+    {
+      "relation": "P2 > P3 = P1",
+      "setting": {
+        "x": 1,
+        "y": 1,
+        "z": -1
+      },
+      "images": ["figure_3_A", "figure_3_B", "figure_3_C", "figure_3_D"],
+      "models": ["model_3_A", "model_3_B", "model_3_C", "model_3_D"],
+      "correctImage": "figure_3_A",
+      "correctModel": "model_3_A"
+    },
+    {
+      "relation": "P3 > P1 > P2",
+      "setting": {
+        "x": 1,
+        "y": -1,
+        "z": -1
+      },
+      "images": ["figure_4_A", "figure_4_B", "figure_4_C", "figure_4_D"],
+      "models": ["model_4_A", "model_4_B", "model_4_C", "model_4_D"],
+      "correctImage": "figure_4_A",
+      "correctModel": "model_4_C"
+    },
+    {
+      "relation": "P1 > P3 > P2",
+      "setting": {
+        "x": 1,
+        "y": -1,
+        "z": 1
+      },
+      "images": ["figure_5_A", "figure_5_B", "figure_5_C", "figure_5_D"],
+      "models": ["model_5_A", "model_5_B", "model_5_C", "model_5_D"],
+      "correctImage": "figure_5_D",
+      "correctModel": "model_5_A"
+    },
+    {
+      "relation": "P1 > P2 = P3",
+      "setting": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "images": ["figure_6_A", "figure_6_B", "figure_6_C", "figure_6_D"],
+      "models": ["model_6_A", "model_6_B", "model_6_C", "model_6_D"],
+      "correctImage": "figure_6_D",
+      "correctModel": "model_6_C"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "timeInTutorial": 90.93999481201172,
+  "timeInLesson": 435.47998046875,
+  "rooms": [
+    {
+      "condition": 0,
+      "time": 107.47998046875,
+      "move": 18.013147354125978,
+      "clicks": 5,
+      "response1": false,
+      "response2": true
+    },
+    {
+      "condition": 1,
+      "time": 108.08001708984375,
+      "move": 153.13865661621095,
+      "clicks": 6,
+      "response1": true,
+      "response2": true
+    },
+    {
+      "condition": 2,
+      "time": 240.780029296875,
+      "move": 130.16238403320313,
+      "clicks": 4,
+      "response1": true,
+      "response2": true
+    }
+  ]
+}
